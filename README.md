@@ -4,12 +4,29 @@
 Bruk repo:
 https://github.com/statisticsnorway/FOU-Mangfold-421.git
 
-I mappen sommerjobb ligger det en populasjonsfil. Denne skal det lages tabeller av. Se i mappen for å se lastefilene.
-Disse tabellene lages per nå på en helt håpløs måte og de prikkes manuelt. 
+I mappen
+
+   /ssb/stamme03/fouoff_pii/Raadata/Mangfold/wk24 
+
+ligger det en populasjonsfil. Denne skal det lages tabeller av. Se i mappen for å se lastefilene. De vil hete ting som Last_FoUoff019.txt o.l.
+
+Disse tabellene lages per nå på en helt håpløs måte og de prikkes manuelt.
+Her er måten det ble gjort på sist:
+https://github.com/statisticsnorway/FOU-Mangfold-421/blob/main/src/notebooks/tabell_arbeid.ipynb
+
+Det er skamfult arbeid og vil helst ikke gjøre det på den måten igjen.
+
+
 Oppgaver
 1. Lag tabellene på en bedre måte
-   - Se helt vekk fra python koden her. Bruk gjerne R til å lage tabeller da prikke-pakken er laget i R og alt kan egentlig være i R.
-   - Lag alle tabellene. De bør ha relativt likt tall som på ssb.no
+   - Se helt vekk fra python koden her om mulig. Ønsker at dette skal gjøres i R fra nå av. Men der du kan gjenbruke kode som lager nye radnavn o.l. må du gjerne bruke på nytt.
+Bruk gjerne R til å lage tabeller da prikke-pakken er laget i R og alt kan egentlig være i R. 
+   - Lag alle tabellene. De bør ha relativt likt tall som på ssb.no, men noe vil variere fordi det er prikket på statbanken.
+Under mangfoldsstatistiskk ligger tabellene som skal lages:
+https://www.ssb.no/statbank/list/fouoff
+
+Men bruk laste filene til å se hvilken struktur de skal ha.
+     
    - Viktig at tabellene har rett kode slik som i lastefilene. Altså må det kanskje byttes om på navn på radene o.l. for å få disse lastekodene som skal brukes i statbanken.
 2. Prikke tabellene
    - Per dags dato prikker vi manuelt. Det er en hodepine.
