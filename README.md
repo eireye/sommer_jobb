@@ -42,6 +42,7 @@ Men bruk laste filene til å se hvilken struktur de skal ha.
 repo:
 https://github.com/statisticsnorway/FOU-FM-421.git
 
+
 ## Oppgaver
 
 1. [Oppgave 1: Fiksing av tabeller](./oppgaver/oppgave1.md)
