@@ -46,7 +46,7 @@ Men bruk laste filene til å se hvilken struktur de skal ha.
 
 ## Komme i gang
 
-F
+
 #### Oppgave 1 README.md
 
 
